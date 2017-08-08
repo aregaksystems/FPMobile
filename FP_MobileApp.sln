@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FP_MobileApp", "FP_MobileApp\FP_MobileApp.csproj", "{62467831-27AD-48A8-B4DC-27AB9BB9CE3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FP_Integration", "FP_Integration\FP_Integration.csproj", "{D9A07EFB-D92B-497D-B274-6DD56B70B0F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FP_DAL", "FP_DAL\FP_DAL.csproj", "{57B8259B-B3DD-4041-B5A7-A4999D9FCF1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlPanelDAL", "ControlPanelDAL\ControlPanelDAL.csproj", "{B05509F2-DA55-48B9-AEB0-5CA52E475BB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62467831-27AD-48A8-B4DC-27AB9BB9CE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62467831-27AD-48A8-B4DC-27AB9BB9CE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62467831-27AD-48A8-B4DC-27AB9BB9CE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62467831-27AD-48A8-B4DC-27AB9BB9CE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A07EFB-D92B-497D-B274-6DD56B70B0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A07EFB-D92B-497D-B274-6DD56B70B0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A07EFB-D92B-497D-B274-6DD56B70B0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A07EFB-D92B-497D-B274-6DD56B70B0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B8259B-B3DD-4041-B5A7-A4999D9FCF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B8259B-B3DD-4041-B5A7-A4999D9FCF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B8259B-B3DD-4041-B5A7-A4999D9FCF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B8259B-B3DD-4041-B5A7-A4999D9FCF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05509F2-DA55-48B9-AEB0-5CA52E475BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05509F2-DA55-48B9-AEB0-5CA52E475BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05509F2-DA55-48B9-AEB0-5CA52E475BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05509F2-DA55-48B9-AEB0-5CA52E475BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

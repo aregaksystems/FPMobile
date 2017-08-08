@@ -1,0 +1,10 @@
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\ControlPanelDAL\bin\Debug\ControlPanelDAL.dll.config
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\ControlPanelDAL\bin\Debug\ControlPanelDAL.dll
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\ControlPanelDAL\bin\Debug\ControlPanelDAL.pdb
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\ControlPanelDAL\bin\Debug\EntityFramework.dll
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\ControlPanelDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\ControlPanelDAL\bin\Debug\EntityFramework.xml
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\ControlPanelDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\ControlPanelDAL\obj\Debug\ControlPanelDAL.csprojResolveAssemblyReference.cache
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\ControlPanelDAL\obj\Debug\ControlPanelDAL.dll
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\ControlPanelDAL\obj\Debug\ControlPanelDAL.pdb

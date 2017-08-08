@@ -1,0 +1,167 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="FP_MobileApp.Site_Mobile" %>
+<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Paper Dashboard by Creative Tim</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Animation library for notifications   -->
+
+    <link href="Content/animate.min.css" rel="stylesheet" />
+    <!--  Paper Dashboard core CSS    -->
+
+    <link href="Content/paper-dashboard.css" rel="stylesheet" />
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+
+    <link href="Content/demo.css" rel="stylesheet" />
+    <!--  Fonts and icons     -->
+
+    <link href="Content/themify-icons.css" rel="stylesheet" />
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+    -
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.css" />
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <script src="Scripts/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="cphHeader" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="sidebar" data-background-color="white" data-active-color="danger">
+
+            <!--
+                Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+                Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+            -->
+
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="http://www.emareiah.com/" class="simple-text">
+                        <img src="Account/assets/img/logo.png" style="width:100px;height:100px" />
+                    </a>
+                </div>
+
+                <ul class="nav">
+                    <li id="MyRequests">
+                        <a href="MyRequests.aspx">
+                            <i class="ti-panel"></i>
+                            <p>My Request</p>
+                        </a>
+                    </li>
+                    <li id="NewRequest" class="active">
+                        <a href="NewRequest.aspx">
+                            <i class="ti-user"></i>
+                            <p>New Request</p>
+                        </a>
+                    </li>
+                    <li id="RquestApproval">
+                        <a href="RquestApproval.aspx">
+                            <i class="ti-view-list-alt"></i>
+                            <p>Approval</p>
+                        </a>
+                    </li>
+                   
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-panel">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar bar1"></span>
+                            <span class="icon-bar bar2"></span>
+                            <span class="icon-bar bar3"></span>
+                        </button>
+                        <a id="headerTitle" class="navbar-brand" href="#"></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right"></ul>
+
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-md-12">
+                            <div class="card">
+                                <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <nav class="pull-left">
+
+                    </nav>
+                    <div class="copyright pull-right">
+
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <script
+			  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			  crossorigin="anonymous"></script>
+ <%--<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script> --%>
+	<!--  Checkbox, Radio & Switch Plugins -->
+	    <script src="Scripts/bootstrap-checkbox-radio.js"></script>
+
+	    <!--  Charts Plugin -->
+   
+	    <script src="Scripts/chartist.min.js"></script>
+
+      <!--  Notifications Plugin    -->
+      <script src="Scripts/bootstrap-notify.js"></script>
+
+      <!--  Google Maps Plugin    -->
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+      <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+	    <script src="Scripts/paper-dashboard.js"></script>
+
+	    <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+	    <script src="Scripts/demo.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(".divider").css('display', 'none');
+        });
+    </script>
+
+</body>
+
+
+
+</html>

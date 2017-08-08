@@ -1,0 +1,52 @@
+﻿{
+  "DepartmentManagerApproval": [
+    {
+      "fld_Field_ID": 1,
+      "fld_Field_Text": "Approved-موافق"
+    },
+    {
+      "fld_Field_ID": 2,
+      "fld_Field_Text": "Rejected-مرفوض"
+    }
+  ],
+  "FinancialManagerApproval": [
+    {
+      "fld_Field_ID": 1,
+      "fld_Field_Text": "Approved - موافق"
+    },
+    {
+      "fld_Field_ID": 2,
+      "fld_Field_Text": "Rejected - مرفوضة"
+    }
+  ],
+  "VPApproval": [
+    {
+      "fld_Field_ID": 1,
+      "fld_Field_Text": "Approved-موافق"
+    },
+    {
+      "fld_Field_ID": 2,
+      "fld_Field_Text": "Rejected-مرفوضة"
+    }
+  ],
+  "CEOApproval": [
+    {
+      "fld_Field_ID": 1,
+      "fld_Field_Text": "Approved - موافق"
+    },
+    {
+      "fld_Field_ID": 2,
+      "fld_Field_Text": "Rejected - مرفوضة"
+    }
+  ],
+  "HRManagerApproval": [
+    {
+      "fld_Field_ID": 1,
+      "fld_Field_Text": "Approved-موافق"
+    },
+    {
+      "fld_Field_ID": 2,
+      "fld_Field_Text": "Rejected-مرفوضة"
+    }
+  ]
+}

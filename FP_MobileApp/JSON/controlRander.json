@@ -1,0 +1,191 @@
+﻿[
+  {
+    "ControlID": "Amount",
+    "Ismain": "False",
+    "ComboValue": "Cheque Extraction - اصدار شيك",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Amount",
+    "DBName": "amount"
+  },
+  {
+    "ControlID": "BankName",
+    "Ismain": "False",
+    "ComboValue": "Cheque Extraction - اصدار شيك",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Bank Name",
+    "DBName": "bank_name"
+  },
+  {
+    "ControlID": "BeneficiaryName",
+    "Ismain": "False",
+    "ComboValue": "Cheque Extraction - اصدار شيك",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Beneficiary Name",
+    "DBName": "beneficiary_name"
+  },
+  {
+    "ControlID": "AmountRequired",
+    "Ismain": "True",
+    "ComboValue": "Quotation - تقديم عروض اسعار",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Amount Required.",
+    "DBName": "amount_required"
+  },
+  {
+    "ControlID": "Amountinnumbers",
+    "Ismain": "True",
+    "ComboValue": "Petty cash - طلب عهدة",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Amount in numbers",
+    "DBName": "amount_in_numbers"
+  },
+  {
+    "ControlID": "Department",
+    "Ismain": "True",
+    "ComboValue": "Petty cash - طلب عهدة",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Department",
+    "DBName": "department"
+  },
+  {
+    "ControlID": "Pettycashtype",
+    "Ismain": "True",
+    "ComboValue": "Petty cash - طلب عهدة",
+    "IsVisiable": "False",
+    "ControlType": "Combo",
+    "FPName": "Petty cash type",
+    "DBName": "petty_cash_type"
+  },
+  {
+    "ControlID": "PurposeofPettycash",
+    "Ismain": "True",
+    "ComboValue": "Petty cash - طلب عهدة",
+    "IsVisiable": "False",
+    "ControlType": "Combo",
+    "FPName": "Purpose of Petty cash",
+    "DBName": "purpose_of_petty_cash"
+  },
+  {
+    "ControlID": "WritingAmount",
+    "Ismain": "True",
+    "ComboValue": "Petty cash - طلب عهدة",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Writing Amount",
+    "DBName": "writing_amount"
+  },
+  {
+    "ControlID": "ActivityName",
+    "Ismain": "True",
+    "ComboValue": "Amendment Requisition - طلب تعديل",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Activity Name",
+    "DBName": "activity_name"
+  },
+  {
+    "ControlID": "AmendmentRequired",
+    "Ismain": "True",
+    "ComboValue": "Amendment Requisition - طلب تعديل",
+    "IsVisiable": "False",
+    "ControlType": "Combo",
+    "FPName": "Amendment Required",
+    "DBName": "amendment_required"
+  },
+  {
+    "ControlID": "AmendmentType",
+    "Ismain": "True",
+    "ComboValue": "Amendment Requisition - طلب تعديل",
+    "IsVisiable": "False",
+    "ControlType": "Combo",
+    "FPName": "Amendment Type",
+    "DBName": "amendment_type"
+  },
+  {
+    "ControlID": "DirectoryName",
+    "Ismain": "True",
+    "ComboValue": "Amendment Requisition - طلب تعديل",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Directory Name",
+    "DBName": "directory_name"
+  },
+  {
+    "ControlID": "ProposedAmendment",
+    "Ismain": "True",
+    "ComboValue": "Amendment Requisition - طلب تعديل",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Proposed Amendment",
+    "DBName": "proposed_amendment"
+  },
+  {
+    "ControlID": "PurposeofAmendment",
+    "Ismain": "True",
+    "ComboValue": "Amendment Requisition - طلب تعديل",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Purpose of Amendment",
+    "DBName": "purpose_of_amendment"
+  },
+  {
+    "ControlID": "AmountrequiredSR",
+    "Ismain": "True",
+    "ComboValue": "Approval of exchange - موافقة صرف",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Amount required # SR",
+    "DBName": "amount_required__"
+  },
+  {
+    "ControlID": "OnlySR",
+    "Ismain": "True",
+    "ComboValue": "Approval of exchange - موافقة صرف",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Only : SR",
+    "DBName": "only___sr"
+  },
+  {
+    "ControlID": "Location",
+    "Ismain": "True",
+    "ComboValue": "Software- طلب البرمجيات",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Location.",
+    "DBName": "location_"
+  },
+  {
+    "ControlID": "Location",
+    "Ismain": "True",
+    "ComboValue": "Hardware - طلب معدات",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Location.",
+    "DBName": "location_"
+  },
+  {
+    "ControlID": "AccessDoor",
+    "Ismain": "True",
+    "ComboValue": "Door Access - التحكم في دخول البوابات",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Access Door",
+    "DBName": "access_door"
+  },
+  {
+    "ControlID": "AccessTime",
+    "Ismain": "True",
+    "ComboValue": "Door Access - التحكم في دخول البوابات",
+    "IsVisiable": "False",
+    "ControlType": "Input-Text",
+    "FPName": "Access Time",
+    "DBName": "access_time"
+  }
+]

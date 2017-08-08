@@ -1,0 +1,12 @@
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_Eammaria\FP_Integration\obj\Debug\FP_Integration.csprojResolveAssemblyReference.cache
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_Eammaria\FP_Integration\bin\Debug\FP_Integration.dll.config
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_Eammaria\FP_Integration\bin\Debug\FP_Integration.dll
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_Eammaria\FP_Integration\bin\Debug\FP_Integration.pdb
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_Eammaria\FP_Integration\obj\Debug\FP_Integration.dll
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_Eammaria\FP_Integration\obj\Debug\FP_Integration.pdb
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\FP_Integration\bin\Debug\FP_Integration.dll.config
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\FP_Integration\bin\Debug\FP_Integration.dll
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\FP_Integration\bin\Debug\FP_Integration.pdb
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\FP_Integration\obj\Debug\FP_Integration.dll
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\FP_Integration\obj\Debug\FP_Integration.pdb
+C:\Users\anasa\documents\visual studio 2015\Projects\FP_MobileApp\FP_Integration\obj\Debug\FP_Integration.csprojResolveAssemblyReference.cache

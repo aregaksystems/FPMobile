@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="footprintModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="app_user">
+    <Key>
+      <PropertyRef Name="app_user_id" />
+    </Key>
+    <Property Name="app_user_id" Type="bigint" Nullable="false" />
+    <Property Name="user_name" Type="varchar" MaxLength="255" />
+    <Property Name="pwd" Type="varchar" MaxLength="255" />
+    <Property Name="cust_login_type_id" Type="int" />
+    <Property Name="lic_type_id" Type="bigint" />
+    <Property Name="user_login" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="email_addr" Type="varchar" MaxLength="255" />
+    <Property Name="delete_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="asgnmt">
+    <Key>
+      <PropertyRef Name="asgnmt_id" />
+    </Key>
+    <Property Name="asgnmt_id" Type="bigint" Nullable="false" />
+    <Property Name="item_defn_id" Type="bigint" />
+    <Property Name="item_id" Type="bigint" />
+    <Property Name="field_id" Type="bigint" />
+    <Property Name="app_user_id" Type="bigint" />
+    <Property Name="team_id" Type="bigint" />
+    <Property Name="cc_email_addr" Type="varchar" MaxLength="255" />
+    <Property Name="begin_date" Type="datetime" />
+    <Property Name="end_date" Type="datetime" />
+    <Property Name="asgnmt_type_id" Type="int" />
+    <Property Name="is_team" Type="bit" Nullable="false" />
+    <Property Name="delete_txn_id" Type="bigint" />
+    <Property Name="sort_order" Type="int" />
+  </EntityType>
+  <EntityType Name="ticket">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" />
+    <Property Name="created_by" Type="varchar" MaxLength="255" />
+    <Property Name="status_1" Type="varchar" MaxLength="255" />
+    <Property Name="ticket_number" Type="varchar" MaxLength="255" />
+    <Property Name="description" Type="varchar(max)" />
+    <Property Name="created_on" Type="datetime" />
+    <Property Name="priority" Type="varchar" MaxLength="255" />
+    <Property Name="updated_by" Type="varchar" MaxLength="255" />
+    <Property Name="soft_delete_id" Type="bigint" Nullable="false" />
+    <Property Name="title" Type="varchar(max)" />
+    <Property Name="icon_name" Type="varchar" MaxLength="255" />
+    <Property Name="updated_on" Type="datetime" />
+    <Property Name="global_1" Type="varchar" MaxLength="255" />
+    <Property Name="color" Type="varchar" MaxLength="255" />
+    <Property Name="ticket_number_fx_rev" Type="varchar" MaxLength="255" StoreGeneratedPattern="Computed" />
+    <Property Name="main_category" Type="varchar" MaxLength="255" />
+    <Property Name="sub_category" Type="varchar" MaxLength="255" />
+    <Property Name="arabic_status" Type="varchar" MaxLength="255" />
+    <Property Name="resolution" Type="varchar" MaxLength="255" />
+    <Property Name="request_type" Type="varchar" MaxLength="255" />
+    <Property Name="other" Type="varchar" MaxLength="255" />
+    <Property Name="main_category_1" Type="varchar" MaxLength="255" />
+    <Property Name="sub_category_1" Type="varchar" MaxLength="255" />
+    <Property Name="first_name" Type="varchar" MaxLength="255" />
+    <Property Name="reason_on_hold" Type="varchar" MaxLength="255" />
+    <Property Name="job_title" Type="varchar" MaxLength="255" />
+    <Property Name="vacation_balance" Type="varchar" MaxLength="255" />
+    <Property Name="mobile_number" Type="varchar" MaxLength="255" />
+    <Property Name="extension" Type="varchar" MaxLength="255" />
+    <Property Name="department" Type="varchar" MaxLength="255" />
+    <Property Name="site" Type="varchar" MaxLength="255" />
+    <Property Name="direct_manger" Type="varchar" MaxLength="255" />
+    <Property Name="email_address" Type="varchar" MaxLength="255" />
+    <Property Name="last_name" Type="varchar" MaxLength="255" />
+    <Property Name="internal_note" Type="varchar" MaxLength="255" />
+    <Property Name="period" Type="varchar" MaxLength="255" />
+    <Property Name="starting_date" Type="datetime" />
+    <Property Name="completion_date" Type="datetime" />
+    <Property Name="mean_6" Type="varchar" MaxLength="255" />
+    <Property Name="mean_5" Type="varchar" MaxLength="255" />
+    <Property Name="mean_2" Type="varchar" MaxLength="255" />
+    <Property Name="mean_1" Type="varchar" MaxLength="255" />
+    <Property Name="mean_4" Type="varchar" MaxLength="255" />
+    <Property Name="mean_3" Type="varchar" MaxLength="255" />
+    <Property Name="down_payment" Type="varchar" MaxLength="255" />
+    <Property Name="required_visa_5" Type="bigint" />
+    <Property Name="required_visa_6" Type="bigint" />
+    <Property Name="required_visa_1" Type="bigint" />
+    <Property Name="required_visa_2" Type="bigint" />
+    <Property Name="required_visa_3" Type="bigint" />
+    <Property Name="required_visa_4" Type="bigint" />
+    <Property Name="class_3" Type="varchar" MaxLength="255" />
+    <Property Name="class_2" Type="varchar" MaxLength="255" />
+    <Property Name="class_5" Type="varchar" MaxLength="255" />
+    <Property Name="class_4" Type="varchar" MaxLength="255" />
+    <Property Name="class_6" Type="varchar" MaxLength="255" />
+    <Property Name="place_of_stay" Type="varchar" MaxLength="255" />
+    <Property Name="to_5" Type="varchar" MaxLength="255" />
+    <Property Name="to_6" Type="varchar" MaxLength="255" />
+    <Property Name="to_3" Type="varchar" MaxLength="255" />
+    <Property Name="to_4" Type="varchar" MaxLength="255" />
+    <Property Name="to_1" Type="varchar" MaxLength="255" />
+    <Property Name="to_2" Type="varchar" MaxLength="255" />
+    <Property Name="mandate_place" Type="varchar" MaxLength="255" />
+    <Property Name="from_1" Type="varchar" MaxLength="255" />
+    <Property Name="from_2" Type="varchar" MaxLength="255" />
+    <Property Name="from_3" Type="varchar" MaxLength="255" />
+    <Property Name="from_4" Type="varchar" MaxLength="255" />
+    <Property Name="from_5" Type="varchar" MaxLength="255" />
+    <Property Name="from_6" Type="varchar" MaxLength="255" />
+    <Property Name="date_1" Type="datetime" />
+    <Property Name="date_3" Type="datetime" />
+    <Property Name="payment" Type="varchar" MaxLength="255" />
+    <Property Name="date_2" Type="datetime" />
+    <Property Name="date_5" Type="datetime" />
+    <Property Name="date_4" Type="datetime" />
+    <Property Name="places_of_stay" Type="varchar" MaxLength="255" />
+    <Property Name="no_of_days_6" Type="bigint" />
+    <Property Name="no_of_days_5" Type="bigint" />
+    <Property Name="date_6" Type="datetime" />
+    <Property Name="no_of_days_4" Type="bigint" />
+    <Property Name="no_of_days_3" Type="bigint" />
+    <Property Name="no_of_days_2" Type="bigint" />
+    <Property Name="no_of_days_1" Type="bigint" />
+    <Property Name="place_of_stay_6" Type="varchar" MaxLength="255" />
+    <Property Name="place_of_stay_5" Type="varchar" MaxLength="255" />
+    <Property Name="place_of_stay_1" Type="varchar" MaxLength="255" />
+    <Property Name="place_of_stay_4" Type="varchar" MaxLength="255" />
+    <Property Name="place_of_stay_3" Type="varchar" MaxLength="255" />
+    <Property Name="number_of_visas" Type="bigint" />
+    <Property Name="class_1" Type="varchar" MaxLength="255" />
+    <Property Name="transfer_to" Type="varchar" MaxLength="255" />
+    <Property Name="transfer_from" Type="varchar" MaxLength="255" />
+    <Property Name="nationality" Type="varchar" MaxLength="255" />
+    <Property Name="position_1" Type="varchar" MaxLength="255" />
+    <Property Name="date_of_transfer" Type="datetime" />
+    <Property Name="salary_date" Type="datetime" />
+    <Property Name="file_no_" Type="varchar" MaxLength="255" />
+    <Property Name="incentives" Type="varchar" MaxLength="255" />
+    <Property Name="basic_salary" Type="varchar" MaxLength="255" />
+    <Property Name="transferred__no" Type="varchar" MaxLength="255" />
+    <Property Name="reserve_air_ticket_to" Type="varchar" MaxLength="255" />
+    <Property Name="section_1" Type="varchar" MaxLength="255" />
+    <Property Name="transferred_name" Type="varchar" MaxLength="255" />
+    <Property Name="receent_job_title" Type="varchar" MaxLength="255" />
+    <Property Name="transferred_dept_" Type="varchar" MaxLength="255" />
+    <Property Name="recent_job_code" Type="varchar" MaxLength="255" />
+    <Property Name="transferred_job_code" Type="varchar" MaxLength="255" />
+    <Property Name="transferred_section" Type="varchar" MaxLength="255" />
+    <Property Name="transferred_job_title" Type="varchar" MaxLength="255" />
+    <Property Name="recent_dept_" Type="varchar" MaxLength="255" />
+    <Property Name="for_the_following_reason" Type="varchar" MaxLength="255" />
+    <Property Name="resignation" Type="varchar" MaxLength="255" />
+    <Property Name="reason_1" Type="varchar" MaxLength="255" />
+    <Property Name="reason_2" Type="varchar" MaxLength="255" />
+    <Property Name="reason_3" Type="varchar" MaxLength="255" />
+    <Property Name="effect_from" Type="datetime" />
+    <Property Name="employment_source" Type="varchar" MaxLength="255" />
+    <Property Name="qualifications_and_experience" Type="varchar" MaxLength="255" />
+    <Property Name="required_number" Type="bigint" />
+    <Property Name="dept__" Type="varchar" MaxLength="255" />
+    <Property Name="locate" Type="varchar" MaxLength="255" />
+    <Property Name="position_requested" Type="varchar" MaxLength="255" />
+    <Property Name="requester_dept" Type="varchar" MaxLength="255" />
+    <Property Name="reasons_for_the_request" Type="varchar" MaxLength="255" />
+    <Property Name="tasks" Type="varchar" MaxLength="255" />
+    <Property Name="position_no__" Type="varchar" MaxLength="255" />
+    <Property Name="number_occupants_position" Type="bigint" />
+    <Property Name="required_data" Type="varchar" MaxLength="255" />
+    <Property Name="reasons_requesting_passport" Type="varchar" MaxLength="255" />
+    <Property Name="date_of_return" Type="datetime" />
+    <Property Name="overtime_type" Type="varchar" MaxLength="255" />
+    <Property Name="number_of_hours" Type="bigint" />
+    <Property Name="number_of_days" Type="bigint" />
+    <Property Name="amount" Type="varchar" MaxLength="255" />
+    <Property Name="reason_for_the_loan" Type="varchar" MaxLength="255" />
+    <Property Name="amount_" Type="varchar" MaxLength="255" />
+    <Property Name="addressed_to" Type="varchar" MaxLength="255" />
+    <Property Name="statement_of_purpose" Type="varchar" MaxLength="255" />
+    <Property Name="relative_relation_2" Type="varchar" MaxLength="255" />
+    <Property Name="relative_relation_1" Type="varchar" MaxLength="255" />
+    <Property Name="number_of_individuals" Type="varchar" MaxLength="255" />
+    <Property Name="relative_relation_5" Type="varchar" MaxLength="255" />
+    <Property Name="relative_relation_4" Type="varchar" MaxLength="255" />
+    <Property Name="relative_relation_3" Type="varchar" MaxLength="255" />
+    <Property Name="name_5" Type="varchar" MaxLength="255" />
+    <Property Name="name_4" Type="varchar" MaxLength="255" />
+    <Property Name="name_3" Type="varchar" MaxLength="255" />
+    <Property Name="name_2" Type="varchar" MaxLength="255" />
+    <Property Name="name_1" Type="varchar" MaxLength="255" />
+    <Property Name="data_to_be_updated" Type="varchar" MaxLength="255" />
+    <Property Name="within_budget" Type="varchar" MaxLength="255" />
+    <Property Name="yes" Type="varchar" MaxLength="255" />
+    <Property Name="no_1" Type="varchar" MaxLength="255" />
+    <Property Name="mandate_fees" Type="varchar" MaxLength="255" />
+    <Property Name="file_no__1" Type="varchar" MaxLength="255" />
+    <Property Name="emp_name" Type="varchar" MaxLength="255" />
+    <Property Name="last_performance_evaluation" Type="varchar" MaxLength="255" />
+    <Property Name="course_name" Type="varchar" MaxLength="255" />
+    <Property Name="course_fees" Type="varchar" MaxLength="255" />
+    <Property Name="other_fees" Type="varchar" MaxLength="255" />
+    <Property Name="training_center" Type="varchar" MaxLength="255" />
+    <Property Name="personal_commitment" Type="varchar" MaxLength="255" />
+    <Property Name="following_the_instructions" Type="varchar" MaxLength="255" />
+    <Property Name="employee_evaluation" Type="varchar" MaxLength="255" />
+    <Property Name="perception" Type="varchar" MaxLength="255" />
+    <Property Name="employment_termination" Type="varchar" MaxLength="255" />
+    <Property Name="sponsorship_transfer" Type="varchar" MaxLength="255" />
+    <Property Name="work_as_a_team" Type="varchar" MaxLength="255" />
+    <Property Name="permanent_employees" Type="varchar" MaxLength="255" />
+    <Property Name="communication_skills" Type="varchar" MaxLength="255" />
+    <Property Name="type_of_violation" Type="varchar" MaxLength="255" />
+    <Property Name="commissioning_period" Type="varchar" MaxLength="255" />
+    <Property Name="task_entrusted" Type="varchar" MaxLength="255" />
+    <Property Name="amount_of_the_increase" Type="varchar" MaxLength="255" />
+    <Property Name="date_of_injury" Type="datetime" />
+    <Property Name="rate_of_increase____" Type="varchar" MaxLength="255" />
+    <Property Name="upgrad_to_position__" Type="varchar" MaxLength="255" />
+    <Property Name="date_of_absenteeism" Type="datetime" />
+    <Property Name="date_of_starting_vacation" Type="datetime" />
+    <Property Name="date_of_starting_work" Type="datetime" />
+    <Property Name="day_of_absences" Type="bigint" />
+    <Property Name="number_of_absence_s_day" Type="bigint" />
+    <Property Name="proposal_type" Type="varchar" MaxLength="255" />
+    <Property Name="current_situation" Type="varchar" MaxLength="255" />
+    <Property Name="proposed_situation" Type="varchar" MaxLength="255" />
+    <Property Name="specific_1" Type="varchar" MaxLength="255" />
+    <Property Name="maintenance_type" Type="varchar" MaxLength="255" />
+    <Property Name="issue_type" Type="varchar" MaxLength="255" />
+    <Property Name="estate_number" Type="varchar" MaxLength="255" />
+    <Property Name="estate_location" Type="varchar" MaxLength="255" />
+    <Property Name="customer_phone" Type="varchar" MaxLength="255" />
+    <Property Name="problem_type" Type="varchar" MaxLength="255" />
+    <Property Name="customer_name" Type="varchar" MaxLength="255" />
+    <Property Name="other_______" Type="varchar" MaxLength="255" />
+    <Property Name="construction_area" Type="varchar" MaxLength="255" />
+    <Property Name="number_of_units" Type="varchar" MaxLength="255" />
+    <Property Name="project_cost" Type="varchar" MaxLength="255" />
+    <Property Name="project_type" Type="varchar" MaxLength="255" />
+    <Property Name="area" Type="varchar" MaxLength="255" />
+    <Property Name="location_1" Type="varchar" MaxLength="255" />
+    <Property Name="price" Type="varchar" MaxLength="255" />
+    <Property Name="department_manger" Type="varchar" MaxLength="255" />
+    <Property Name="hr_m_approval" Type="varchar" MaxLength="255" />
+    <Property Name="vp_approval" Type="varchar" MaxLength="255" />
+    <Property Name="dept_m__approval" Type="varchar" MaxLength="255" />
+    <Property Name="dm__approval" Type="varchar" MaxLength="255" />
+    <Property Name="direct_manager_notes" Type="varchar" MaxLength="255" />
+    <Property Name="hr_manager_notes" Type="varchar" MaxLength="255" />
+    <Property Name="department_manager_notes" Type="varchar" MaxLength="255" />
+    <Property Name="vp_notes" Type="varchar" MaxLength="255" />
+    <Property Name="direct_manager_approval" Type="varchar" MaxLength="255" />
+    <Property Name="user_id" Type="varchar" MaxLength="255" />
+    <Property Name="department_manager_id" Type="varchar" MaxLength="255" />
+    <Property Name="direct_manager_id" Type="varchar" MaxLength="255" />
+    <Property Name="department_manager_approval" Type="varchar" MaxLength="255" />
+    <Property Name="hr_manager_approval" Type="varchar" MaxLength="255" />
+    <Property Name="department_manager_id_1" Type="varchar" MaxLength="255" />
+    <Property Name="vp_approval_1" Type="varchar" MaxLength="255" />
+    <Property Name="ceo_nots" Type="varchar" MaxLength="255" />
+    <Property Name="ceo_approval" Type="varchar" MaxLength="255" />
+    <Property Name="financial_manager_notes" Type="varchar" MaxLength="255" />
+    <Property Name="financial_manager_approval" Type="varchar" MaxLength="255" />
+    <Property Name="amount_required" Type="varchar" MaxLength="255" />
+    <Property Name="beneficiary_name" Type="varchar" MaxLength="255" />
+    <Property Name="fund_balance" Type="varchar" MaxLength="255" />
+    <Property Name="bank_name" Type="varchar" MaxLength="255" />
+    <Property Name="amount_required_" Type="varchar" MaxLength="255" />
+    <Property Name="department_manager_approval_1" Type="varchar" MaxLength="255" />
+    <Property Name="within_budget_1" Type="varchar" MaxLength="255" />
+    <Property Name="full_name" Type="varchar" MaxLength="255" />
+    <Property Name="access_door" Type="varchar" MaxLength="255" />
+    <Property Name="access_time" Type="varchar" MaxLength="255" />
+    <Property Name="project" Type="varchar" MaxLength="255" />
+    <Property Name="petty_cash_type" Type="varchar" MaxLength="255" />
+    <Property Name="department__" Type="varchar" MaxLength="255" />
+    <Property Name="purpose_of_petty_cash" Type="varchar" MaxLength="255" />
+    <Property Name="amount_in_numbers" Type="bigint" />
+    <Property Name="writing_amount" Type="varchar" MaxLength="255" />
+    <Property Name="city" Type="varchar" MaxLength="255" />
+    <Property Name="activity_name" Type="varchar" MaxLength="255" />
+    <Property Name="amendment_required" Type="varchar" MaxLength="255" />
+    <Property Name="amendment_type" Type="varchar" MaxLength="255" />
+    <Property Name="proposed_amendment" Type="varchar" MaxLength="255" />
+    <Property Name="directory_name" Type="varchar" MaxLength="255" />
+    <Property Name="purpose_of_amendment" Type="varchar" MaxLength="255" />
+    <Property Name="location_" Type="varchar" MaxLength="255" />
+    <Property Name="only___sr" Type="varchar" MaxLength="255" />
+    <Property Name="amount_required__" Type="bigint" />
+    <Property Name="clean" Type="varchar" MaxLength="255" />
+    <Property Name="re_assign" Type="varchar" MaxLength="255" />
+    <Property Name="printing" Type="varchar" MaxLength="255" />
+    <Property Name="send" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="asgnmt_fk_app_user">
+    <End Role="app_user" Type="Self.app_user" Multiplicity="0..1" />
+    <End Role="asgnmt" Type="Self.asgnmt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="app_user">
+        <PropertyRef Name="app_user_id" />
+      </Principal>
+      <Dependent Role="asgnmt">
+        <PropertyRef Name="app_user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="footprintModelStoreContainer">
+    <EntitySet Name="app_user" EntityType="Self.app_user" Schema="fpscdb001_system" store:Type="Tables" />
+    <EntitySet Name="asgnmt" EntityType="Self.asgnmt" Schema="fpscdb001_system" store:Type="Tables" />
+    <EntitySet Name="ticket" EntityType="Self.ticket" Schema="fpscdb001_ws_001" store:Type="Tables" />
+    <AssociationSet Name="asgnmt_fk_app_user" Association="Self.asgnmt_fk_app_user">
+      <End Role="app_user" EntitySet="app_user" />
+      <End Role="asgnmt" EntitySet="asgnmt" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

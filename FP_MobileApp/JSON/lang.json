@@ -1,0 +1,535 @@
+﻿{
+  "sysLang": [
+    { "name": "En" },
+    { "name": "Ar" }
+  ],
+  "CurrentLang": {"Name":"En"},
+  "NewRequest": [
+    {
+      "name": "aGenInformation",
+      "Ar": "المعلومات العامة",
+      "En": "General Information",
+      "PlaceHolder": "General Information"
+    },
+    {
+      "name": "btnSmmit",
+      "Ar": "حفظ",
+      "En": "Smmit",
+      "PlaceHolder": "Smmit"
+    },
+    {
+      "name": "requestType",
+      "Ar": "نوع الطلب",
+      "En": "Request Type",
+      "PlaceHolder": "Request Type"
+    },
+    {
+      "name": "mainCategory",
+      "Ar": "التصنيف الرئيسي",
+      "En": "Main Category",
+      "PlaceHolder": "Main Category"
+    },
+    {
+      "name": "subCategory",
+      "Ar": "التصنيف الفرعي",
+      "En": "Sub Category",
+      "PlaceHolder": "Sub Category"
+    },
+    {
+      "name": "ShortDescription",
+      "Ar": "العنوان",
+      "En": "Short Description",
+      "PlaceHolder": "Short Description"
+    },
+    {
+      "name": "Description",
+      "Ar": "النص التفصيلي",
+      "En": "Description",
+      "PlaceHolder": "Description"
+    },
+    {
+      "name": "aEmployeeInfo",
+      "Ar": "بيانات الموظف",
+      "En": "Employee Information",
+      "PlaceHolder": "Employee Information"
+    },
+    {
+      "name": "BankName",
+      "Ar": "اسم البنك",
+      "En": "Bank Name",
+      "PlaceHolder": "Bank Name"
+    },
+    {
+      "name": "BeneficiaryName",
+      "Ar": "اسم المستفيد",
+      "En": "Beneficiary Name",
+      "PlaceHolder": "Beneficiary Name"
+    },
+    {
+      "name": "Amount",
+      "Ar": "المبلغ",
+      "En": "Amount",
+      "PlaceHolder": "Amount"
+    },
+    {
+      "name": "AmountRequired",
+      "Ar": "المبلغ المطلوب",
+      "En": "Amount Required",
+      "PlaceHolder": "Amount Required"
+    },
+    {
+      "name": "Amountinnumbers",
+      "Ar": "المبلغ بالارقام",
+      "En": "Amount in numbers",
+      "PlaceHolder": "Amount in numbers"
+    },
+    {
+      "name": "Department",
+      "Ar": "القسم",
+      "En": "Department",
+      "PlaceHolder": "Department"
+    },
+    {
+      "name": "Pettycashtype",
+      "Ar": "المبلغ النقدي",
+      "En": "Petty cash type",
+      "PlaceHolder": "Petty cash type"
+    },
+    {
+      "name": "PurposeofPettycash",
+      "Ar": "اسباب المبلغ النقدي",
+      "En": "Purpose of Petty cash",
+      "PlaceHolder": "Purpose of Petty cash"
+    },
+    {
+      "name": "Writing Amount",
+      "Ar": "المبلغ المكتوب",
+      "En": "Writing Amount",
+      "PlaceHolder": "Writing Amount"
+    },
+    {
+      "name": "ActivityName",
+      "Ar": "اسم النشاط",
+      "En": "Activity Name",
+      "PlaceHolder": "Activity Name"
+    },
+    {
+      "name": "AmendmentRequired",
+      "Ar": "التعديل المطلوب",
+      "En": "Amendment Required",
+      "PlaceHolder": "Amendment Required"
+    },
+    {
+      "name": "AmendmentType",
+      "Ar": "نوع التعديل",
+      "En": "Amendment Type",
+      "PlaceHolder": "Amendment Type"
+    },
+    {
+      "name": "DirectoryName",
+      "Ar": "اسم المجلد",
+      "En": "Directory Name",
+      "PlaceHolder": "Directory Name"
+    },
+    {
+      "name": "ProposedAmendment",
+      "Ar": "التعديل المقترح",
+      "En": "Proposed Amendment",
+      "PlaceHolder": "Proposed Amendment"
+    },
+    {
+      "name": "PurposeofAmendment",
+      "Ar": "الغرض من التعديل",
+      "En": "Purpose of Amendment",
+      "PlaceHolder": "Purpose of Amendment"
+    },
+    {
+      "name": "AmountrequiredSR",
+      "Ar": "المبلغ المطلوب بالريال",
+      "En": "Amount required SR",
+      "PlaceHolder": "Amount required SR"
+    },
+    {
+      "name": "OnlySR",
+      "Ar": "بالريال فقط",
+      "En": "Only SR",
+      "PlaceHolder": "Only SR"
+    },
+    {
+      "name": "Location",
+      "Ar": "الموقع",
+      "En": "Location",
+      "PlaceHolder": "Location"
+    },
+    {
+      "name": "AccessDoor",
+      "Ar": "بوابة الدخول",
+      "En": "Access Door",
+      "PlaceHolder": "Access Door"
+    },
+    {
+      "name": "AccessTime",
+      "Ar": "وقت الدخول",
+      "En": "Access Time",
+      "PlaceHolder": "Access Time"
+    }
+  ],
+  "EditRequest": [
+    {
+      "name": "aGenInformation",
+      "Ar": "المعلومات العامة",
+      "En": "General Information",
+      "PlaceHolder": "General Information"
+    },
+    {
+      "name": "btnSmmit",
+      "Ar": "حفظ",
+      "En": "Smmit",
+      "PlaceHolder": "Smmit"
+    },
+    {
+      "name": "requestType",
+      "Ar": "نوع الطلب",
+      "En": "Request Type",
+      "PlaceHolder": "Request Type"
+    },
+    {
+      "name": "mainCategory",
+      "Ar": "التصنيف الرئيسي",
+      "En": "Main Category",
+      "PlaceHolder": "Main Category"
+    },
+    {
+      "name": "subCategory",
+      "Ar": "التصنيف الفرعي",
+      "En": "Sub Category",
+      "PlaceHolder": "Sub Category"
+    },
+    {
+      "name": "ShortDescription",
+      "Ar": "العنوان",
+      "En": "Short Description",
+      "PlaceHolder": "Short Description"
+    },
+    {
+      "name": "Description",
+      "Ar": "النص التفصيلي",
+      "En": "Description",
+      "PlaceHolder": "Description"
+    },
+    {
+      "name": "aEmployeeInfo",
+      "Ar": "بيانات الموظف",
+      "En": "Employee Information",
+      "PlaceHolder": "Employee Information"
+    },
+    {
+      "name": "BankName",
+      "Ar": "اسم البنك",
+      "En": "Bank Name",
+      "PlaceHolder": "Bank Name"
+    },
+    {
+      "name": "Beneficiary Name",
+      "Ar": "اسم المستفيد",
+      "En": "BeneficiaryName",
+      "PlaceHolder": "BeneficiaryName"
+    },
+    {
+      "name": "Amount",
+      "Ar": "المبلغ",
+      "En": "Amount",
+      "PlaceHolder": "Amount"
+    },
+    {
+      "name": "AmountRequired",
+      "Ar": "المبلغ المطلوب",
+      "En": "Amount Required",
+      "PlaceHolder": "Amount Required"
+    },
+    {
+      "name": "Amountinnumbers",
+      "Ar": "المبلغ بالارقام",
+      "En": "Amount in numbers",
+      "PlaceHolder": "Amount in numbers"
+    },
+    {
+      "name": "Department",
+      "Ar": "القسم",
+      "En": "Department",
+      "PlaceHolder": "Department"
+    },
+    {
+      "name": "Pettycashtype",
+      "Ar": "المبلغ النقدي",
+      "En": "Petty cash type",
+      "PlaceHolder": "Petty cash type"
+    },
+    {
+      "name": "PurposeofPettycash",
+      "Ar": "اسباب المبلغ النقدي",
+      "En": "Purpose of Petty cash",
+      "PlaceHolder": "Purpose of Petty cash"
+    },
+    {
+      "name": "Writing Amount",
+      "Ar": "المبلغ المكتوب",
+      "En": "Writing Amount",
+      "PlaceHolder": "Writing Amount"
+    },
+    {
+      "name": "ActivityName",
+      "Ar": "اسم النشاط",
+      "En": "Activity Name",
+      "PlaceHolder": "Activity Name"
+    },
+    {
+      "name": "AmendmentRequired",
+      "Ar": "التعديل المطلوب",
+      "En": "Amendment Required",
+      "PlaceHolder": "Amendment Required"
+    },
+    {
+      "name": "AmendmentType",
+      "Ar": "نوع التعديل",
+      "En": "Amendment Type",
+      "PlaceHolder": "Amendment Type"
+    },
+    {
+      "name": "DirectoryName",
+      "Ar": "اسم المجلد",
+      "En": "Directory Name",
+      "PlaceHolder": "Directory Name"
+    },
+    {
+      "name": "ProposedAmendment",
+      "Ar": "التعديل المقترح",
+      "En": "Proposed Amendment",
+      "PlaceHolder": "Proposed Amendment"
+    },
+    {
+      "name": "PurposeofAmendment",
+      "Ar": "الغرض من التعديل",
+      "En": "Purpose of Amendment",
+      "PlaceHolder": "Purpose of Amendment"
+    },
+    {
+      "name": "AmountrequiredSR",
+      "Ar": "المبلغ المطلوب بالريال",
+      "En": "Amount required SR",
+      "PlaceHolder": "Amount required SR"
+    },
+    {
+      "name": "OnlySR",
+      "Ar": "بالريال فقط",
+      "En": "Only SR",
+      "PlaceHolder": "Only SR"
+    },
+    {
+      "name": "Location",
+      "Ar": "الموقع",
+      "En": "Location",
+      "PlaceHolder": "Location"
+    },
+    {
+      "name": "AccessDoor",
+      "Ar": "بوابة الدخول",
+      "En": "Access Door",
+      "PlaceHolder": "Access Door"
+    },
+    {
+      "name": "AccessTime",
+      "Ar": "وقت الدخول",
+      "En": "Access Time",
+      "PlaceHolder": "Access Time"
+    },
+    {
+      "name": "ticket_number",
+      "Ar": "وقت الدخول",
+      "En": "Ticket Number",
+      "PlaceHolder": "Ticket Number"
+    }
+  ],
+  "EditApproval": [
+    {
+      "name": "aGenInformation",
+      "Ar": "المعلومات العامة",
+      "En": "General Information",
+      "PlaceHolder": "General Information"
+    },
+    {
+      "name": "btnSmmit",
+      "Ar": "حفظ",
+      "En": "Smmit",
+      "PlaceHolder": "Smmit"
+    },
+    {
+      "name": "requestType",
+      "Ar": "نوع الطلب",
+      "En": "Request Type",
+      "PlaceHolder": "Request Type"
+    },
+    {
+      "name": "mainCategory",
+      "Ar": "التصنيف الرئيسي",
+      "En": "Main Category",
+      "PlaceHolder": "Main Category"
+    },
+    {
+      "name": "subCategory",
+      "Ar": "التصنيف الفرعي",
+      "En": "Sub Category",
+      "PlaceHolder": "Sub Category"
+    },
+    {
+      "name": "ShortDescription",
+      "Ar": "العنوان",
+      "En": "Short Description",
+      "PlaceHolder": "Short Description"
+    },
+    {
+      "name": "Description",
+      "Ar": "النص التفصيلي",
+      "En": "Description",
+      "PlaceHolder": "Description"
+    },
+    {
+      "name": "aEmployeeInfo",
+      "Ar": "بيانات الموظف",
+      "En": "Employee Information",
+      "PlaceHolder": "Employee Information"
+    },
+    {
+      "name": "BankName",
+      "Ar": "اسم البنك",
+      "En": "Bank Name",
+      "PlaceHolder": "Bank Name"
+    },
+    {
+      "name": "Beneficiary Name",
+      "Ar": "اسم المستفيد",
+      "En": "BeneficiaryName",
+      "PlaceHolder": "BeneficiaryName"
+    },
+    {
+      "name": "Amount",
+      "Ar": "المبلغ",
+      "En": "Amount",
+      "PlaceHolder": "Amount"
+    },
+    {
+      "name": "AmountRequired",
+      "Ar": "المبلغ المطلوب",
+      "En": "Amount Required",
+      "PlaceHolder": "Amount Required"
+    },
+    {
+      "name": "Amountinnumbers",
+      "Ar": "المبلغ بالارقام",
+      "En": "Amount in numbers",
+      "PlaceHolder": "Amount in numbers"
+    },
+    {
+      "name": "Department",
+      "Ar": "القسم",
+      "En": "Department",
+      "PlaceHolder": "Department"
+    },
+    {
+      "name": "Pettycashtype",
+      "Ar": "المبلغ النقدي",
+      "En": "Petty cash type",
+      "PlaceHolder": "Petty cash type"
+    },
+    {
+      "name": "PurposeofPettycash",
+      "Ar": "اسباب المبلغ النقدي",
+      "En": "Purpose of Petty cash",
+      "PlaceHolder": "Purpose of Petty cash"
+    },
+    {
+      "name": "Writing Amount",
+      "Ar": "المبلغ المكتوب",
+      "En": "Writing Amount",
+      "PlaceHolder": "Writing Amount"
+    },
+    {
+      "name": "ActivityName",
+      "Ar": "اسم النشاط",
+      "En": "Activity Name",
+      "PlaceHolder": "Activity Name"
+    },
+    {
+      "name": "AmendmentRequired",
+      "Ar": "التعديل المطلوب",
+      "En": "Amendment Required",
+      "PlaceHolder": "Amendment Required"
+    },
+    {
+      "name": "AmendmentType",
+      "Ar": "نوع التعديل",
+      "En": "Amendment Type",
+      "PlaceHolder": "Amendment Type"
+    },
+    {
+      "name": "DirectoryName",
+      "Ar": "اسم المجلد",
+      "En": "Directory Name",
+      "PlaceHolder": "Directory Name"
+    },
+    {
+      "name": "ProposedAmendment",
+      "Ar": "التعديل المقترح",
+      "En": "Proposed Amendment",
+      "PlaceHolder": "Proposed Amendment"
+    },
+    {
+      "name": "PurposeofAmendment",
+      "Ar": "الغرض من التعديل",
+      "En": "Purpose of Amendment",
+      "PlaceHolder": "Purpose of Amendment"
+    },
+    {
+      "name": "AmountrequiredSR",
+      "Ar": "المبلغ المطلوب بالريال",
+      "En": "Amount required SR",
+      "PlaceHolder": "Amount required SR"
+    },
+    {
+      "name": "OnlySR",
+      "Ar": "بالريال فقط",
+      "En": "Only SR",
+      "PlaceHolder": "Only SR"
+    },
+    {
+      "name": "Location",
+      "Ar": "الموقع",
+      "En": "Location",
+      "PlaceHolder": "Location"
+    },
+    {
+      "name": "AccessDoor",
+      "Ar": "بوابة الدخول",
+      "En": "Access Door",
+      "PlaceHolder": "Access Door"
+    },
+    {
+      "name": "AccessTime",
+      "Ar": "وقت الدخول",
+      "En": "Access Time",
+      "PlaceHolder": "Access Time"
+    },
+    {
+      "name": "ticket_number",
+      "Ar": "وقت الدخول",
+      "En": "Ticket Number",
+      "PlaceHolder": "Ticket Number"
+    },
+    {
+      "name": "ApprovalStatus",
+      "Ar": "وقت الدخول",
+      "En": "Approval Status",
+      "PlaceHolder": "Approval Status"
+    }
+  ]
+}

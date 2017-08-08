@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="93bc28cf813d4e6591b2d6a5b5ce91a8" Name="Diagram1">
+        <EntityTypeShape EntityType="FP_ControlPanelModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FP_ControlPanelModel.AspNetRole" Width="1.5" PointX="2.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FP_ControlPanelModel.AspNetUserClaim" Width="1.5" PointX="7.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FP_ControlPanelModel.AspNetUserLogin" Width="1.5" PointX="7.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FP_ControlPanelModel.AspNetUser" Width="1.5" PointX="5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FP_ControlPanelModel.Tbl_LookupTable" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="FP_ControlPanelModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FP_ControlPanelModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="FP_ControlPanelModel.FK_Tbl_LookupTable_Tbl_LookupTable" ManuallyRouted="false" />
+        <AssociationConnector Association="FP_ControlPanelModel.FK_Tbl_LookupTable_Tbl_LookupTable1" ManuallyRouted="false" />
+        <AssociationConnector Association="FP_ControlPanelModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

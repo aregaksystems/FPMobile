@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="footprintModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ticket">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" />
+    <Property Name="created_by" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="status_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ticket_number" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="created_on" Type="DateTime" Precision="3" />
+    <Property Name="priority" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="updated_by" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="soft_delete_id" Type="Int64" Nullable="false" />
+    <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="icon_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="updated_on" Type="DateTime" Precision="3" />
+    <Property Name="global_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="color" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ticket_number_fx_rev" Type="String" MaxLength="255" FixedLength="false" Unicode="false" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="main_category" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="sub_category" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="arabic_status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="resolution" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="request_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="other" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="main_category_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="sub_category_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="first_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="reason_on_hold" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="job_title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="vacation_balance" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="mobile_number" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="extension" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="department" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="site" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="direct_manger" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="email_address" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="last_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="internal_note" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="period" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="starting_date" Type="DateTime" Precision="3" />
+    <Property Name="completion_date" Type="DateTime" Precision="3" />
+    <Property Name="mean_6" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="mean_5" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="mean_2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="mean_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="mean_4" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="mean_3" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="down_payment" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="required_visa_5" Type="Int64" />
+    <Property Name="required_visa_6" Type="Int64" />
+    <Property Name="required_visa_1" Type="Int64" />
+    <Property Name="required_visa_2" Type="Int64" />
+    <Property Name="required_visa_3" Type="Int64" />
+    <Property Name="required_visa_4" Type="Int64" />
+    <Property Name="class_3" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="class_2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="class_5" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="class_4" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="class_6" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="place_of_stay" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="to_5" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="to_6" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="to_3" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="to_4" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="to_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="to_2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="mandate_place" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="from_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="from_2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="from_3" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="from_4" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="from_5" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="from_6" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="date_1" Type="DateTime" Precision="3" />
+    <Property Name="date_3" Type="DateTime" Precision="3" />
+    <Property Name="payment" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="date_2" Type="DateTime" Precision="3" />
+    <Property Name="date_5" Type="DateTime" Precision="3" />
+    <Property Name="date_4" Type="DateTime" Precision="3" />
+    <Property Name="places_of_stay" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="no_of_days_6" Type="Int64" />
+    <Property Name="no_of_days_5" Type="Int64" />
+    <Property Name="date_6" Type="DateTime" Precision="3" />
+    <Property Name="no_of_days_4" Type="Int64" />
+    <Property Name="no_of_days_3" Type="Int64" />
+    <Property Name="no_of_days_2" Type="Int64" />
+    <Property Name="no_of_days_1" Type="Int64" />
+    <Property Name="place_of_stay_6" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="place_of_stay_5" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="place_of_stay_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="place_of_stay_4" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="place_of_stay_3" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="number_of_visas" Type="Int64" />
+    <Property Name="class_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="transfer_to" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="transfer_from" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="nationality" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="position_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="date_of_transfer" Type="DateTime" Precision="3" />
+    <Property Name="salary_date" Type="DateTime" Precision="3" />
+    <Property Name="file_no_" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="incentives" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="basic_salary" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="transferred__no" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="reserve_air_ticket_to" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="section_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="transferred_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="receent_job_title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="transferred_dept_" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="recent_job_code" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="transferred_job_code" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="transferred_section" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="transferred_job_title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="recent_dept_" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="for_the_following_reason" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="resignation" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="reason_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="reason_2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="reason_3" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="effect_from" Type="DateTime" Precision="3" />
+    <Property Name="employment_source" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="qualifications_and_experience" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="required_number" Type="Int64" />
+    <Property Name="dept__" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="locate" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="position_requested" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="requester_dept" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="reasons_for_the_request" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="tasks" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="position_no__" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="number_occupants_position" Type="Int64" />
+    <Property Name="required_data" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="reasons_requesting_passport" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="date_of_return" Type="DateTime" Precision="3" />
+    <Property Name="overtime_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="number_of_hours" Type="Int64" />
+    <Property Name="number_of_days" Type="Int64" />
+    <Property Name="amount" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="reason_for_the_loan" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="amount_" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="addressed_to" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="statement_of_purpose" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="relative_relation_2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="relative_relation_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="number_of_individuals" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="relative_relation_5" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="relative_relation_4" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="relative_relation_3" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="name_5" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="name_4" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="name_3" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="name_2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="name_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="data_to_be_updated" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="within_budget" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="yes" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="no_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="mandate_fees" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="file_no__1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="emp_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="last_performance_evaluation" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="course_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="course_fees" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="other_fees" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="training_center" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="personal_commitment" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="following_the_instructions" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="employee_evaluation" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="perception" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="employment_termination" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="sponsorship_transfer" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="work_as_a_team" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="permanent_employees" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="communication_skills" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="type_of_violation" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="commissioning_period" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="task_entrusted" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="amount_of_the_increase" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="date_of_injury" Type="DateTime" Precision="3" />
+    <Property Name="rate_of_increase____" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="upgrad_to_position__" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="date_of_absenteeism" Type="DateTime" Precision="3" />
+    <Property Name="date_of_starting_vacation" Type="DateTime" Precision="3" />
+    <Property Name="date_of_starting_work" Type="DateTime" Precision="3" />
+    <Property Name="day_of_absences" Type="Int64" />
+    <Property Name="number_of_absence_s_day" Type="Int64" />
+    <Property Name="proposal_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="current_situation" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="proposed_situation" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="specific_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="maintenance_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="issue_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="estate_number" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="estate_location" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="customer_phone" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="problem_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="customer_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="other_______" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="construction_area" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="number_of_units" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="project_cost" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="project_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="area" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="location_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="price" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="department_manger" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="hr_m_approval" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="vp_approval" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="dept_m__approval" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="dm__approval" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="direct_manager_notes" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="hr_manager_notes" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="department_manager_notes" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="vp_notes" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="direct_manager_approval" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="user_id" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="department_manager_id" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="direct_manager_id" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="department_manager_approval" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="hr_manager_approval" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="department_manager_id_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="vp_approval_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ceo_nots" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ceo_approval" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="financial_manager_notes" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="financial_manager_approval" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="amount_required" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="beneficiary_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="fund_balance" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="bank_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="amount_required_" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="department_manager_approval_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="within_budget_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="full_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="access_door" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="access_time" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="project" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="petty_cash_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="department__" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="purpose_of_petty_cash" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="amount_in_numbers" Type="Int64" />
+    <Property Name="writing_amount" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="city" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="activity_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="amendment_required" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="amendment_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="proposed_amendment" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="directory_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="purpose_of_amendment" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="location_" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="only___sr" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="amount_required__" Type="Int64" />
+    <Property Name="clean" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="re_assign" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="printing" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="send" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="footprintEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tickets" EntityType="Self.ticket" />
+    <EntitySet Name="app_user" EntityType="footprintModel.app_user" />
+    <EntitySet Name="asgnmts" EntityType="footprintModel.asgnmt" />
+    <AssociationSet Name="asgnmt_fk_app_user" Association="footprintModel.asgnmt_fk_app_user">
+      <End Role="app_user" EntitySet="app_user" />
+      <End Role="asgnmt" EntitySet="asgnmts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="app_user">
+    <Key>
+      <PropertyRef Name="app_user_id" />
+    </Key>
+    <Property Name="app_user_id" Type="Int64" Nullable="false" />
+    <Property Name="user_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="pwd" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="cust_login_type_id" Type="Int32" />
+    <Property Name="lic_type_id" Type="Int64" />
+    <Property Name="user_login" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="email_addr" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="delete_date" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="asgnmts" Relationship="footprintModel.asgnmt_fk_app_user" FromRole="app_user" ToRole="asgnmt" />
+  </EntityType>
+  <EntityType Name="asgnmt">
+    <Key>
+      <PropertyRef Name="asgnmt_id" />
+    </Key>
+    <Property Name="asgnmt_id" Type="Int64" Nullable="false" />
+    <Property Name="item_defn_id" Type="Int64" />
+    <Property Name="item_id" Type="Int64" />
+    <Property Name="field_id" Type="Int64" />
+    <Property Name="app_user_id" Type="Int64" />
+    <Property Name="team_id" Type="Int64" />
+    <Property Name="cc_email_addr" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="begin_date" Type="DateTime" Precision="3" />
+    <Property Name="end_date" Type="DateTime" Precision="3" />
+    <Property Name="asgnmt_type_id" Type="Int32" />
+    <Property Name="is_team" Type="Boolean" Nullable="false" />
+    <Property Name="delete_txn_id" Type="Int64" />
+    <Property Name="sort_order" Type="Int32" />
+    <NavigationProperty Name="app_user" Relationship="footprintModel.asgnmt_fk_app_user" FromRole="asgnmt" ToRole="app_user" />
+  </EntityType>
+  <Association Name="asgnmt_fk_app_user">
+    <End Type="footprintModel.app_user" Role="app_user" Multiplicity="0..1" />
+    <End Type="footprintModel.asgnmt" Role="asgnmt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="app_user">
+        <PropertyRef Name="app_user_id" />
+      </Principal>
+      <Dependent Role="asgnmt">
+        <PropertyRef Name="app_user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
